@@ -1,0 +1,792 @@
+#header {
+    height: 141px;
+    background-color: #f5f5f5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000000000;
+}
+
+#header .navbar {
+    position: relative;
+}
+
+.header__navbar-list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+}
+
+.header__navbar-list svg {
+    height: 2rem;
+    width: 2.3rem;
+    cursor: pointer;
+}
+
+.header__navbar-text {
+    font-size: 1.9rem;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.header__navbar-item:hover,
+.header__navbar-link:hover {
+    color: #a26028;
+    cursor: pointer;
+}
+
+.header__navbar-item {
+    padding-left: 10px;
+}
+
+.header__navbar-link {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+.header__navbar-no--pointer:hover {
+    cursor: text;
+    color: #1e1e1e;
+}
+
+#header .mobile-menu-btn {
+    padding: 0 1.2rem;
+    display: none;
+}
+
+#header .mobile-menu-btn:hover {
+    cursor: pointer;
+    background-color: #a26028;
+    color: #1e1e1e;
+}
+
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 12px;
+    right: 5px;
+}
+
+/* service */
+#service {
+    background-color: #f5f5f5;
+}
+
+.service__wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url(../img/imgae-home-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.service__wrapper-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+    gap: 2.9rem;
+    align-items: flex-start;
+}
+
+.service__wrapper h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.service__wrapper a:hover {
+    color: #a26028;
+    cursor: pointer;
+}
+
+.service__wrapper a {
+    display: inline-block;
+    padding: 0.7rem 1.3rem;
+    background-color: #f5f5f5;
+    color: #1e1e1e;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size: 0.8rem;
+}
+
+/* phân cách */
+.separation {
+  width: 100%;
+  min-height: 10vh;
+  background-color: #f5f5f5;
+}
+
+/* công ty cải tạo nhà vn */
+#company {
+    background-color: #f5f5f5;
+    padding-bottom: 3.2rem;
+}
+
+.parallax {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.combany__content {
+    width: 50%;
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.company-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.company__content-text h2 {
+    font-size: 2.1rem;
+    font-weight: 700;
+    line-height: 2.7rem;
+    letter-spacing: 0.6px;
+    margin-bottom: 2.5rem;
+}
+
+.combany__content > span > p {
+    width: 28rem;
+    margin-bottom: 3rem;
+}
+
+.company-btn:hover {
+    background-color: #a26028;
+    cursor: pointer;
+    transform: findIn 1s ease;
+}
+
+.company-btn {
+    background-color: #1e1e1e;
+    padding: 0.6rem 1rem;
+}
+
+.company-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* vấn đề */
+#problem {
+    background-color: #f5f5f5;
+    padding-bottom: 6.4rem;
+}
+
+.problem-main {
+    text-align: center;
+    padding-bottom: 6.4rem;
+}
+
+.problem-main h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.problem-text {
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.problem-text h2 {
+    width: 220px;
+    margin: auto;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.41em;
+    text-align: center;
+    color: #a26028;
+    padding-bottom: 2rem;
+}
+
+/* nội thất */
+#interior {
+    background-color: #f5f5f5;
+    padding-bottom: 6.4rem;
+}
+
+.interior__text-main {
+    text-align: center;
+}
+
+.interior__text-main h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 3.2rem;
+}
+
+.interior__content .interior__text h3 {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.interior__content .interior__text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.interior__content-picture {
+    position: relative;
+}
+
+.interior__btn {
+    padding-top: 6.4rem;
+}
+
+.interior__btn span{
+    background-color: #1e1e1e;
+    padding: 1rem 1.5rem;
+}
+
+.interior__btn span:hover {
+    background-color: #a26028;
+    cursor: pointer;
+}
+
+.interior__btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* khách hàng */
+#customer {
+    background-color: #f5f5f5;
+    padding-bottom: 6.4rem;
+}
+
+.customer__headline {
+    text-align: center;
+    padding-bottom: 4.2rem;
+}
+
+.customer__headline h1 {
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+
+.customer__content {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.customer__content svg {
+    height: 30px;
+}
+
+.customer__text p {
+    width: 50%;
+    margin: auto;
+}
+
+.customer__text-main h3 {
+    color: #a26028;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+/* đăng kí */
+#login {
+    background-color: #1e1e1e ;
+    padding-top: 6.4rem;
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__text {
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+
+.login__text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 340px;
+}
+
+.login__text span p {
+    width: 460px;
+}
+
+.login-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+.login-item {
+    
+}
+
+#login form {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.login-content__wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+
+.login-file {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 1rem;
+}
+
+.login-file input {
+    background-color: #1e1e1e;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 0 1px 0  ;
+    color: #fff;
+    width: 100%;
+}
+
+.login-file textarea {
+    background-color: #1e1e1e;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    width: 100%;
+    height: 37%;
+}
+
+.login__send {
+    text-align: center;
+}
+
+.login__send-item {
+    background-color: #f5f5f5;
+    padding: 1rem;
+}
+
+.login__send-item a:hover {
+    color: #a26028;
+}
+
+.login__send-item a {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+/* img */
+#strip {
+    padding: 6.4rem 0;
+    background-color: #f5f5f5;
+}
+
+/* footer */
+#footer {
+    background-color: #f5f5f5;
+    padding: 6.4rem 0;
+}
+
+.footer__wrapper-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.footer__text {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.footer__text a {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+.footer__text .underline {
+    text-decoration: underline;
+}
+
+.footer-icon {
+    text-align: center;
+}
+
+.footer__wrapper-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* giới thiệu */
+
+/* about */
+#begin {
+    background-color: #f5f5f5;
+    padding-top: 6.4rem;
+}
+
+.begin__text span p {
+    width: 780px;
+    margin: auto;
+    padding-bottom: 2.5rem;
+    line-height: 2rem;
+}
+
+.begin__text-main h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+
+.begin__image img{
+    padding-top: 2.5rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* process */
+#process {
+    background-color: #f5f5f5;
+    padding: 2rem 0;
+}
+
+.process__text-main h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+
+.process__text span p {
+    width: 980px;
+    margin: auto;
+    padding-bottom: 2.5rem;
+    line-height: 2rem;
+}
+
+.process__wrapper {
+    background-color: #f5f5f5;
+}
+
+.process__content-text h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+
+.process__content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    width: 220px;
+}
+
+.pd-0 {
+    padding: 0;
+}
+
+.process__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbdbdb;
+}
+
+/* quailty */
+#quality {
+    padding: 2rem 0;
+}
+
+.quality__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.quality__content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.quality__content span p {
+    width: 920px;
+    margin: auto;
+    line-height: 2rem;
+}
+
+/* thảo luận */
+#discuss {
+    background-color: #1e1e1e;
+    padding: 3.4rem 0;
+}
+
+.discuss__content-text {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 2.8rem;
+}
+
+.discuss__content-text h2 {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+    letter-spacing: normal;
+}
+
+.discuss__btn {
+    padding: 0.8rem 1.3rem;
+    background-color: #f5f5f5;
+}
+
+.discuss__content-text a {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+/* service */
+#service__main {
+    background-color: #f5f5f5;
+    padding-top: 10rem;
+}
+
+.service__main-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.service__main-tex span p {
+    padding: 2rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.service__main-content {
+    padding: 2.8rem 2rem;
+}
+
+.service__main-content h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+    margin: 0;
+}
+
+/* work */
+#work {
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+.work__content-text h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.work__file {
+    padding-bottom: 1rem;
+}
+
+.work__content-text p {
+    padding: 2rem;
+}
+
+
+
+.work__text h3 {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: none;
+}
+
+.work__text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work__text:hover h3 {
+    display: block;
+}
+
+.work__text:hover {
+    display: block;
+    background: rgba(30, 30, 30, 0.4) !important;
+    color: #fff;
+    display: flex;
+}
+
+.work__text::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+
+.work__picture {
+    position: relative;
+}
+
+/* contact */
+#login__contact {
+    background-color: #f5f5f5;
+    padding-top: 6.4rem;
+}
+
+.login__contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__contact-text {
+    color: #1e1e1e; 
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+
+.login__contact-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 340px;
+}
+
+.login__contact-text span p {
+    width: 460px;
+}
+
+.login__contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+.login__contact-item {
+    
+}
+
+#login__contact form {
+   width: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.login__contact-content {
+    width: 100%;
+    height: 100%;
+}
+
+
+.login__contact-file {
+    display: flex;
+    flex-direction: column;
+    color: #1e1e1e;
+    gap: 1rem;
+}
+
+.login__contact-file input {
+    background-color: #f5f5f5;
+    border-color: #1e1e1e;
+    border-style: solid;
+    border-width: 0 0 1px 0  ;
+    color: #fff;
+    width: 100%;
+}
+
+.login__contact-file textarea {
+    background-color: #f5f5f5;
+    border-color: #1e1e1e;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    width: 100%;
+    height: 37%;
+}
+
+.login__contact-send {
+    text-align: center;
+}
+
+.login__contact-send-item {
+    background-color: #1e1e1e;
+    padding: 1rem;
+}
+
+.login__contact-send-item a:hover {
+    color: #a26028;
+}
+
+.login__contact-send-item a {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+/* map contact */
+.map-img {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.map__content {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
